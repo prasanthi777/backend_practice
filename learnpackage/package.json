@@ -1,0 +1,19 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "this is about node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node staticapi.js",
+    "dev": "nodemon http.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "developer student",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
